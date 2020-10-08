@@ -14,7 +14,7 @@ pipeline {
             }
         }
 
-       stage('Despliegue Develop') {
+       stage('Despliegue master') {
             when {
                 branch 'master'
             }
